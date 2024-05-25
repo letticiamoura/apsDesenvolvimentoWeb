@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*          HEADER          */
+header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-size: 200% 200%;
+    backdrop-filter: blur(20px);
+    background-image: url('../img/fundo.jpg');
+}
+
+.headerC {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    backdrop-filter: blur(20px);
+}
+
+header nav {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav h1 {
+    font-size: 2.5em;
+    font-weigth: extrabold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header nav ul, li, a{
+    gap: 50px;
+    display: flex;
+}
+
+.items{
+    font-size: 1.5em;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.items a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header nav ul li:hover, a:hover {
+    color: #d03ffc;
+    cursor: pointer;
+}
+
+/*          NEW TASK            */
+.createTask {
+    padding: 60px;
+}
+
+.newTaskContainer {
+    width: 50vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: #340a40;
+}
+
+.newTask {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+.newTask h2 {
+    padding-top: 30px;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.newTask label {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.newTask input {
+    width: 20vw;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.newTask textarea {
+    width: 21vw;
+    height: 15vh;
+    outline: none;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.newTask button {
+    width: 10vw;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #49006b;
+}
+
+/*          FOOTER          */
+footer {
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    background-size: cover;
+    background-image: url('../img/fundo.jpg');
+}
+  
+.footerBlur {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    backdrop-filter: blur(20px);
+}
+  
+footer p {
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}

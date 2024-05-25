@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/edit.css">
+    <link rel="shortcut icon" href="../img/faviconn.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Notes LM</title>
+</head>
+<body onload="getTaskId()">
+
+    <header>
+
+        <div class="headerC">
+        
+            <nav>
+                
+                <h1>Notes</h1>
+
+                <ul class="items">
+
+                    <li>
+                        <a href="./Home.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="../pages/CreateTask.html">New Task</a>
+                    </li>
+
+                    <li>
+                        <a href="../pages/ArchiveTask">Archives Notes</a>
+                    </li>
+
+                    <li>
+                        <a href="../index.html">Logout</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="createTask">
+
+        <div class="newTaskContainer">
+
+            <div class="newTask">
+
+                <h2>Edit a task</h2>
+
+                <label for="title">Title <br> 
+                    <input type="text" placeholder="Enter new title..." id="titleEditInput">
+                </label>
+
+                <label for="description">Description <br>
+                    <textarea id="descriptionEditInput" name="description" placeholder="Enter new description..." ></textarea>
+                </label>
+
+                <button type="button" onclick="editTask()">Update</button>
+
+            </div>
+        </div>
+
+        <div class="editTaskValues">
+
+            <div class="editTask" style="margin-top: 50px;">
+
+                <h2 class="margin-bottom: 20px; text-align: center">Current task</h2>
+
+                <div style="margin-bottom: 20px;" class="inputTask">
+                    <label for="title">Title</label>
+                    <p id="titleEditValue">title...</p>
+                    <hr>
+                </div>
+                
+                <div style="margin-bottom: 20px;" class="inputTask">
+                    <label for="description">Description</label>
+                    <p id="descriptionEditValue">Description...</p>
+                    <hr>
+                </div>
+                </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footerBlur">
+            <p>&copy;Leticia Moura - 2024</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    
+</body>
+</html>

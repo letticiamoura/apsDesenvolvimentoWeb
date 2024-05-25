@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/faviconn.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/newTask.css">
+    <title>Notes LM</title>
+</head>
+<body>
+
+    <header>
+        <div class="headerC">
+            <nav>
+                <h1>Notes</h1>
+                <ul class="items">
+                    <li>
+                        <a href="../pages/Home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./CreateTask.html">New Task</a>
+                    </li>
+                    <li>
+                        <a href="./ArchiveTask">Archives Task</a>
+                    </li>
+                    <li>
+                        <a href="../index.html">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="createTask">
+
+        <div class="newTaskContainer">
+
+            <div class="newTask">
+
+                <h2>Create a task</h2>
+
+                <label for="title">Title <br> 
+                    <input id="titleInput" type="text" placeholder="Enter the title of your task...">
+                </label>
+
+                <label for="description">Description <br>
+                    <textarea id="descriptionInput" name="description" placeholder="Description of your task..." ></textarea>
+                </label>
+
+                <button type="submit" onclick="createTask()">Register</button>
+
+                </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footerBlur">
+            <p>&copy;Leticia Moura - 2024</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    
+</body>
+</html>

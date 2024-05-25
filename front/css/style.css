@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*          HEADER          */
+header {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-size: 200% 200%;
+    backdrop-filter: blur(20px);
+    background-image: url('../img/fundo.jpg');
+}
+
+.headerC {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    backdrop-filter: blur(20px);
+}
+
+header nav {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav h1 {
+    font-size: 2.5em;
+    font-weigth: extrabold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header nav ul, li, a{
+    gap: 50px;
+    display: flex;
+}
+
+.items{
+    font-size: 1.5em;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.items a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header nav ul li:hover, a:hover {
+    color: #d03ffc;
+    cursor: pointer;
+}
+
+/*          TASK CREATED           */
+.taskCreated h2{
+    padding: 25px;
+    font-size: 2.5em;
+    font-weight: extrabold;
+    color: rgba(74, 15, 72, 0.6);
+}
+
+.allTaks {
+    gap: 20px;
+    height: 80vh;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.task {
+    margin-bottom: 20px;
+}
+
+.containerTasks {
+    gap: 20px;
+    width: 50vw;
+    height: 15vh;
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(41, 4, 40, 0.8);
+}
+
+.containerTasks button {
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    background-color: purple;
+}
+
+.containerTasks i {
+    color: #FFF;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.completed {
+    background-color: #d1f5d3;
+    text-decoration: underline;
+}
+
+
+.containerTasks h3 {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.containerTasks p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.optionsTask {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.optionsTask button {
+    width: 4vw;
+    color: #FFF;
+    border: none;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #540e52;
+}
+
+.optionsTask button i {
+    color: #FFF;  
+    margin: 0 auto;
+}
+
+.optionsTask button:hover {
+    background-color: #d370ff;
+}
+
+/*          FOOTER          */
+footer {
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    background-size: cover;
+    background-image: url('../img/fundo.jpg');
+}
+  
+.footerBlur {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    backdrop-filter: blur(20px);
+}
+
+footer p {
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}

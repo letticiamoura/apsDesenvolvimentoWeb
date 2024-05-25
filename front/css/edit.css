@@ -1,0 +1,59 @@
+.newTask {
+    width: 50vw;
+    display: flex;
+    heigth: 50vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: purple;
+    border-radius: 10px;
+}
+.newTask h2 {
+    color: #FFF;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.inputTask {
+    margin: 0 auto;
+}
+
+.newTask label {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.newTask input {
+    width: 25vw;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.newTask textarea {
+    heigth: 15vh;
+    width: 25vw;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.newTask button {
+    color: #FFF;
+    width: 10vw;
+    padding: 1px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding-bottom: 10px;
+    background-color: #5c0f58;
+}
+
+.editTask {
+    width: 50vw;
+    heigth: 30vh;
+    margin: 0 auto;
+}

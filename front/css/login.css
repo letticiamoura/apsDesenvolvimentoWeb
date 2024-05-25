@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #800080, #000000);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.login {
+    padding: 100px;
+}
+
+.login form {
+    gap: 20px;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.login form h1 {
+    padding: 30px;
+    font-size: 3em;
+    font-weigth: bold;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.login form label {
+    font-size: 1.2em;
+    font-weigth: medium;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.login form input {
+    color: #FFF;
+    width: 20vw;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login form button {
+    color: #FFF;
+    width: 10vw;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: #360040;
+}
+
+.login form button:hover {
+    cursor: pointer;
+    background-color: #c479d1;
+}

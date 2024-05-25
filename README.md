@@ -37,7 +37,7 @@ Criar a tabela tasks
 > `npm install`
 
 * Executando o backend
-  > `npm run dev`
+> `npm run dev`
 
 
 ### FRONT END
@@ -46,4 +46,5 @@ Abrir o arquivo principal no navegador
 
 Utilizar o seguinte login:
 > `USER: user`
+
 > `PASSWORRD: 123`
